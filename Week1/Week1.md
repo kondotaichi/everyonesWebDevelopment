@@ -65,7 +65,7 @@
 
 まずはファイルを開いてみましょう。
 
-[week01_howToUseVscode.mov](Week1/week01_howToUseVscode.mov)
+[VSコードの使い方.mov](https://drive.google.com/file/d/19l6IE1UmWTAxX2YJHdTBfHWxp8N_cW9T/view?usp=drive_link)
 
 VSコードを使って、パソコンの中のフォルダにファイルを作って自由に書き込んだり保存したりすることができるかと思います。
 
@@ -125,14 +125,25 @@ HTMLは **「Webページを作るための言語」** です。
 このとき、拡張子を.htmlにすることをお忘れなく。こうすることでパソコンが「このファイルはHTMLを使ってるんだ！」と認識できます
 
 ```html
-week
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+</head>
+<body>
+    <h1>こんにちは！</h1>
+    <p>私は〇〇です。趣味は△△です。</p>
+</body>
+</html>
 ```
 
 先ほど作ったフォルダに、動画を参考にして貼り付けてみてください。
 
 またhtmlファイルは慣例的にindex.htmlとすることが多いです。理由は知りません
 
-[Screen Recording 2025-03-17 at 16.36.09.mov](Week1/Screen_Recording_2025-03-17_at_16.36.09.mov)
+[index.htmlを編集してWebページを見る.mov](https://drive.google.com/file/d/1QjycLEsR2vvTemu_HSsx7tEWhrPQ_fOQ/view?usp=drive_link)
 
 vsコードで新しいファイルindex.htmlを作り、貼り付け
 
@@ -184,7 +195,7 @@ https://qiita.com/non_cal/items/a8fee0b7ad96e67713eb
     
 - Windowsの場合
     
-    [Screen Recording 2025-09-28 at 13.46.02.mov](Week1/Screen_Recording_2025-09-28_at_13.46.02.mov)
+    [Windowsでのnodeのsetup.mov](https://drive.google.com/file/d/1a3WUWbfXw5pb87ktp41kavJvQVlwNoI5/view?usp=drive_link)
     
     [https://nodejs.org/en/download](https://nodejs.org/en/download)
     上記の公式サイトにアクセスし、動画のように操作してダウンロードを進めてください。
@@ -216,7 +227,7 @@ node --version
     
 3. 確認！
 
-[Screen Recording 2025-03-17 at 17.27.48.mov](Week1/Screen_Recording_2025-03-17_at_17.27.48.mov)
+[nodeのインストール.mov](Week1/Screen_Recording_2025-03-17_at_17.27.48.mov)
 
 [https://drive.google.com/file/d/1Qkqn_T-wzX6qJivVcWlcCz5W1c9x4B1f/view?usp=drive_link](https://drive.google.com/file/d/1Qkqn_T-wzX6qJivVcWlcCz5W1c9x4B1f/view?usp=drive_link)
 
