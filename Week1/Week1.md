@@ -1,20 +1,28 @@
-# Week1
+# Week1: セットアップとOSコマンド
 
 <aside>
-💡
+📋
 
-### **Week 1: セットアップ**
+### **このページの目次**
 
-**☑️内容**:
+**1. 開発環境の準備**
+- VS Code のインストールと概要、拡張機能・フォルダ操作
+- HTML で自己紹介ページ（Live Server で表示）
+- Node.js と npm のセットアップ
+- GCP アカウント作成と無料枠の注意点
+- vibe coding に触れる
+- Windows 向けの補足（該当する場合）
 
-- Visual Studio Codeのインストールと基本操作。
-- Live Serverを使ってHTMLで簡単なホームページを作成。
-- Node.jsとnpmのセットアップ。
-- GCPアカウントの作成と無料枠の準備。
+**2. ターミナルと OS コマンド**
+- OS・シェル・パスのイメージ
+- `pwd` / `ls` / `mkdir` / `cd` / `rm` / `touch` / `echo` / `cat` / `mv` などの練習
 
-**📚 成果物**: 自己紹介ホームページ（名前や趣味を記載）。
+**3. Git と GitHub**
+- Git・GitHub の役割、リポジトリやコミットなどの用語
+- インストールから `git init` → `add` → `commit` → `push` / `pull` / `clone` まで
+- 最後に自己紹介ファイルを GitHub に上げる手順
 
-🔑ポイント：（改めて）お互いについて認識し合う
+💡 各章は上から順に進める想定です。必要なところだけ飛ばし読みしても大丈夫です。
 
 </aside>
 
@@ -571,58 +579,97 @@ hogehoge.txtがnewdirectoryに移動できたことがわかります。
 
 [コマンド全復習.mov](https://drive.google.com/file/d/1YqoBwr7kA3tWVmtmcIcd0Ge9-831GN5G/view?usp=drive_link)
 
-最後に以下の一問一答に答えましょう。
+最後に以下の一問一答に答えましょう。（クリックで解答が開きます）
 
-- Q1. 今いるディレクトリを確認するコマンドは？
-    - 解答
-        
-        `pwd`
-        
-- Q2. ディレクトリの中身を一覧表示するコマンドは？
-    - 解答
-        
-         `ls`
-        
-- Q3. 新しくディレクトリを作成するコマンドは？
-    - 解答
-        
-        `mkdir (ディレクトリ名)`
-        
-- Q4. ディレクトリを移動するコマンドは？
-    - 解答
-        
-         `cd (ディレクトリ名)`
-        
-- Q5. 一つ上の階層に戻るコマンドは？
-    - 解答
-        
-        `cd ..`
-        
-- Q6. ファイルを削除するコマンドは？
-    - 解答
-        
-         `rm (ファイル名)`
-        
-- Q7. 新しくファイルを作るコマンドは？
-    - 解答
-        
-          `touch (ファイル名)`
-        
-- Q8. ファイルの中身を見るコマンドは？
-    - 解答
-        
-         `cat (ファイル名)`
-        
-- Q9. ファイルを移動するコマンドは？
-    - 解答
-        
-         `mv (ファイル名) (移動先)`
-        
-- Q10. ファイルに文字を書き込むコマンドは？
-    - 解答
-        
-        `echo "文字列" > file名`
-        
+**Q1.** 今いるディレクトリを確認するコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`pwd`
+
+</details>
+
+**Q2.** ディレクトリの中身を一覧表示するコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`ls`
+
+</details>
+
+**Q3.** 新しくディレクトリを作成するコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`mkdir (ディレクトリ名)`
+
+</details>
+
+**Q4.** ディレクトリを移動するコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`cd (ディレクトリ名)`
+
+</details>
+
+**Q5.** 一つ上の階層に戻るコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`cd ..`
+
+</details>
+
+**Q6.** ファイルを削除するコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`rm (ファイル名)`
+
+</details>
+
+**Q7.** 新しくファイルを作るコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`touch (ファイル名)`
+
+</details>
+
+**Q8.** ファイルの中身を見るコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`cat (ファイル名)`
+
+</details>
+
+**Q9.** ファイルを移動するコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`mv (ファイル名) (移動先)`
+
+</details>
+
+**Q10.** ファイルに文字を書き込むコマンドは？
+
+<details>
+<summary>解答を表示</summary>
+
+`echo "文字列" > file名`
+
+</details>
 
 # 8 Gitの基本操作
 
