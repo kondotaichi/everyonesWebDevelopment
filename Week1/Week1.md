@@ -714,31 +714,31 @@ Git/GitHubがあれば、こうした問題をかなり防げます。
 
 紙芝居でお伝えします
 
-<img src="Week1/2.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/2.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/3.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/3.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/4.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/4.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/5.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/5.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/6.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/6.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/7.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/7.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/8.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/8.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/9.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/9.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/10.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/10.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/11.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/11.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/12.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/12.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/13.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem;" />
+<img src="Week1/13.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; margin-bottom: 1.5rem; border: 1px solid #ccc; border-radius: 4px;" />
 
-<img src="Week1/14.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block;" />
+<img src="Week1/14.png" alt="" style="max-width: 600px; width: 100%; height: auto; display: block; border: 1px solid #ccc; border-radius: 4px;" />
 ここで用語を整理しておきましょう。
 
 - リポジトリ
@@ -1140,7 +1140,7 @@ git push -u origin main
 
 # １１ 自己紹介ファイルをGitHubに上げよう！
 
-まずはweek2_setup内に「self-intro」フォルダを作りましょう
+まずはweek1_setup内に「self-intro」フォルダを作りましょう
 
 作ったら以下のコマンドで移動&git初期化
 
@@ -1158,3 +1158,26 @@ git init
 というわけでリポジトリを作ります。自己紹介なので、publicではなくprivateにしましょうか。
 
 ![image.png](Week1/image%2025.png)
+
+リポジトリを作成したら、GitHub側に表示されるURLをコピーします。
+このURLが、今作ったローカルの self-intro フォルダと GitHub 上のリポジトリをつなぐためのものになります。
+
+たとえば、以下のようなURLです。
+
+```jsx
+https://github.com/ユーザー名/self-intro.git
+```
+
+次に、ターミナルで以下のコマンドを実行します。
+
+```jsx
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ユーザー名/self-intro.git
+git push -u origin main
+```
+
+ここまでできたらGitHubのページを更新してみましょう。README.mdが更新されていれば成功です。
+
+第一回は以上になります！！お疲れ様でした！！
