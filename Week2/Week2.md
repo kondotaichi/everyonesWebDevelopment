@@ -10,7 +10,7 @@
 
 </aside>
 
-![image.png](Week%20%EF%BC%92%20Web%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%A8%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E5%AE%9F%E8%A3%85/image.png)
+![sayhello.png](/Users/taichikondo/everyonesWebDevelopment/Week2/Week2/sayhello.png)
 
 Week1で見たこの３つを更に詳しく見ていきます。
 
