@@ -10,7 +10,7 @@
 
 </aside>
 
-![sayhello.png](/Users/taichikondo/everyonesWebDevelopment/Week2/Week2/sayhello.png)
+![image.png](sayhello.png)
 
 Week1で見たこの３つを更に詳しく見ていきます。
 
