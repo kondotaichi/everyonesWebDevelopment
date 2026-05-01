@@ -10,7 +10,7 @@
 
 </aside>
 
-![image.png](Week2/sayhello.png)
+![image.png](Week2/frontend.png)
 
 Week1で見たこの３つを更に詳しく見ていきます。
 
@@ -70,7 +70,7 @@ HTML（HyperText Markup Language）は、**Webページの骨組み（構造）*
 
 VSコードで上のコードを貼り付けてGo Liveをクリックしてください（詳しくはWeek1参照）
 
-![image.png](Week%20%EF%BC%92%20Web%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%A8%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E5%AE%9F%E8%A3%85/image%201.png)
+![image.png](Week2/sayhello.png)
 
 htmlでは<xxx></xxx>の形（タグ）を使うことでwebページの構造を作ります。
 
@@ -122,11 +122,11 @@ CSSはHTMLの補完的な存在で、HTMLで作成したタグ（要素）に対
 
 before
 
-![image.png](Week%20%EF%BC%92%20Web%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%A8%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E5%AE%9F%E8%A3%85/image%201.png)
+![image.png](Week2/sayhello.png)
 
 after
 
-![image.png](Week%20%EF%BC%92%20Web%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%A8%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E5%AE%9F%E8%A3%85/image%202.png)
+![image.png](Week2/redSayhello.png)
 
 cssを適用するためにはhtmlの中でどのcssを参照するか？というコードを含める必要があり、若干変更が必要です。
 
