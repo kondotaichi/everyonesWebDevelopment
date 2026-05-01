@@ -10,7 +10,7 @@
 
 </aside>
 
-![image.png](sayhello.png)
+![image.png](Week2/sayhello.png)
 
 Week1で見たこの３つを更に詳しく見ていきます。
 
